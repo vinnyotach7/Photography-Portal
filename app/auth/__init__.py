@@ -1,3 +1,5 @@
-import . from auth
-auth=('auth'__name__)
-import views,errors,forms
+from flask import Blueprint
+
+auth = Blueprint('auth',__name__)
+
+from . import views,forms
