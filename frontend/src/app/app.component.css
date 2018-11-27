@@ -1,0 +1,8 @@
+.carousel-item img{
+    width: 100%;
+    height: 600px;
+}
+.overlay{
+    background-color: green;
+    z-index: 99999;
+}

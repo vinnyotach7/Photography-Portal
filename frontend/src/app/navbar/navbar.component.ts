@@ -11,8 +11,12 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    $(window).scroll(function() {
-      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+    $(window).on('scroll', function() {
+      if ($(window).scrollTop()) {
+        $('navbar').addClass('black');
+      } else {
+        $('nav').removeClass('black');
+      }
     });
   }
 
