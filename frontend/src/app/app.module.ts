@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderContentComponent } from './header-content/header-content.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReviewFormComponent } from './review-form/review-form.component';
+import { CategoryComponent } from './category/category.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ReviewFormComponent } from './review-form/review-form.component';
     NavbarComponent,
     HeaderContentComponent,
     FooterComponent,
-    ReviewFormComponent
+    ReviewFormComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
