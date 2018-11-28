@@ -5,3 +5,10 @@ form{
 .container-fluid{
     margin-top: 60px;
 }
+h2{
+    font-size: 30px;
+    color: #fff9f9;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}

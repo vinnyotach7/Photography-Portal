@@ -10,6 +10,7 @@ import { HeaderContentComponent } from './header-content/header-content.componen
 import { FooterComponent } from './footer/footer.component';
 import { ReviewFormComponent } from './review-form/review-form.component';
 import { CategoryComponent } from './category/category.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CategoryComponent } from './category/category.component';
     HeaderContentComponent,
     FooterComponent,
     ReviewFormComponent,
-    CategoryComponent
+    CategoryComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,
