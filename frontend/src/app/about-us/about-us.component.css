@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&subset=latin-ext');
 h1{
 
     font-size: 50px;
@@ -5,4 +7,14 @@ h1{
     padding: 10px;
     margin: auto;
     margin-top: 90px;
+}
+.firstA p{
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    /* background-color: red; */
+    padding: 20px;
+    margin-top: 50px;
+}
+.firstB p{
+    margin-top: 50px;
 }

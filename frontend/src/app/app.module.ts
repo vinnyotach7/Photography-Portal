@@ -12,6 +12,7 @@ import { ReviewFormComponent } from './review-form/review-form.component';
 import { CategoryComponent } from './category/category.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { FollowComponent } from './follow/follow.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     ReviewFormComponent,
     CategoryComponent,
     CategoriesComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    FollowComponent
   ],
   imports: [
     BrowserModule,
