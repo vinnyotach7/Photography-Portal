@@ -20,14 +20,28 @@ This is an appliction where photographers can be able to log in and view the upc
 </ul>
 
 # Cloning
-Run the following command on the terminal: https://github.com/vinnyotach7/Photography-Portal.git
+Run the following command on the terminal: 
+<table>
+<tr>
+<td>https://github.com/vinnyotach7/Photography-Portal.git</td>
+</tr>
+</table>
 
 # Activate Virtual Environment
 Activate virtual environment using python3.6 as default handler:
-virtualenv -p /usr/bin/python3.6 venv && source venv/bin/activate
+<table>
+<tr>
+<td>virtualenv -p /usr/bin/python3.6 venv && source venv/bin/activate</td>
+</tr>
+</table>
 
 # Install dependancies
-Install dependancies that will create an environment for the app to run: pip3 install -r requirements.txt
+Install dependancies that will create an environment for the app to run: 
+<table>
+<tr>
+<td>pip3 install -r requirements.txt</td>
+</tr>
+</table>
 
 # Migration
 <ul>
