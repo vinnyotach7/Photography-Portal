@@ -4,5 +4,43 @@
 }
 .overlay{
     background-color: green;
-    z-index: 99999;
+    /* z-index: 99999; */
+}
+.indicate{
+    width: 15px;
+    height: 15px;
+    border-radius:50%;
+}
+.carousel-caption h1{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, .5);
+    margin-top: -470px;
+}
+.carousel-caption{
+    font-size: 20px;
+}
+.carousel-caption li{
+    display: inline;
+    padding: 30px;
+}
+.carousel-caption li{
+    color: black;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(211, 151, 151);
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, .5);
+}
+.carousel-caption span{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, .3);
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, .2);
+    /* color: #0000; */
+    background-color: #ffff;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    transform:rotate(45deg);
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .5);
+    
 }
