@@ -68,7 +68,7 @@ Activate virtual environment using python3.6 as default handler:
 Install dependancies that will create an environment for the app to run: 
 <table>
 <tr>
-<td>pip3 install -r requirements.txt</td>
+<td>pip3 install requirements.txt</td>
 </tr>
 </table>
 
