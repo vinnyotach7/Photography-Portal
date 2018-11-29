@@ -2,6 +2,7 @@
     width:100%;
     height:690px;
     background-color: rgb(91, 91, 197);
+    /* z-index: 9999; */
 }
 h1{
     color: #fff;
